@@ -1,0 +1,82 @@
+body {
+	margin: 1px;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1  {
+	font-family: monospace;
+	font-size: 40px;
+	text-align: center;
+	-moz-box-shadow:4px 4px 5px 1px #888888;
+	-ms-box-shadow: 4px 4px 5px 1px #888888;
+	-webkit-box-shadow: 4px 4px 5px 1px #888888;
+	-o-box-shadow: 4px 4px 5px 1px #888888;
+	box-shadow: 5px 4px 3px 1px #888888;
+	margin-top: 30px;
+	
+}
+
+img {
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.22);
+}
+
+p {
+	font-family: monospace;
+	text-align: center;
+	font-size:25px
+
+
+}
+
+/*Artistic Titles and Capacities*/
+h2 {
+
+font-family: monospace;
+text-align: center;
+
+}
+
+#table1 {
+    border-collapse: separate;
+    border-spacing: 185px 1px;
+    text-align: center;
+    margin-left: 330px;
+
+}
+ /*unvisted link*/
+a:link {
+
+color:black;
+
+}
+
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/*Link Font*/
+th {
+
+font-family: monospace;
+font-size: 20px;
+
+}
